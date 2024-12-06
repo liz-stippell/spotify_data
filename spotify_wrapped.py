@@ -3,7 +3,7 @@ import re
 from datetime import datetime
 from collections import Counter
 
-WRAP = "" # Insert Google Sheet link between quotes
+WRAP = "https://docs.google.com/spreadsheets/d/16p9KiHp3aD6oK6IjOrrzIjO-yQaGDMaczbaKGSjR50I/edit?gid=0#gid=0" # Insert Google Sheet link between quotes
 
 current_datetime = datetime.now()
 current_month = current_datetime.strftime("%B") # Automatically computes current month if you want to do it monthly
