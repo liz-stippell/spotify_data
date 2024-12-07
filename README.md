@@ -4,10 +4,14 @@ Analyzes your Spotify listening data collected through IFTTTT and stored in Goog
 <br>
 <b>WARNING!</b> I have no idea how to stop IFTTTT from logging all of my data into Google Sheets. If you don't want it to log your songs forever, continue at your own risk. (Mine has been logging songs for literal years with no end in sight)
 
-## Python Set Up
+## Python Setup
 I run this in the terminal because I write code from the terminal like a madman. (I'm not sure how this would affect running through an IDE, etc.)
 1. Make sure you have [Python](https://www.geeksforgeeks.org/download-and-install-python-3-latest-version/) installed
 2. Install `pandas`: run `pip install pandas` in the terminal. Extra information can be found [here](https://www.geeksforgeeks.org/how-to-install-python-pandas-on-windows-and-linux/)
+
+## Easier Python setup for those with less experience with Python
+1. Follow the instructions for installing Jupyter Notebook and <b>Anaconda</b> [here](https://github.com/liz-stippell/Intro_To_Python). For help with understanding how Jupyter Notebook works, find information [here](https://github.com/liz-stippell/Intro_To_Python/blob/main/1_Basic_Math.ipynb)
+2. Download the Jupyter Notebook version of the code (the file that ends in `.ipynb`). You will still need to install pandas (see above in general Python Setup)
 
 ## Setting It Up
 1. You will need [this IFTTTT applet](https://ifttt.com/applets/nin7BxVm-keep-a-log-of-your-recently-played-tracks) and connect it to an account with Google Sheets
@@ -20,5 +24,10 @@ I run this in the terminal because I write code from the terminal like a madman.
 
 This repository would not be possible without IFTTTT, Google Sheets, and wherever I got the `convert_google_sheet_url()` function.
 
-Pull requests should be open.
+Pull requests should be open. 
+
+
+For testing, please feel free to use the `.xlsx` Excel spreadsheet (this is for more advanced users) OR use my Google Sheet with my Spotify wrapped: https://docs.google.com/spreadsheets/d/1AUxY8Cjr5MMgrTzoewKzGfqO1fnUzzkOBapEGpt1I7A/edit?gid=0#gid=0
+
+
 Any questions about this code, please email me at <a href="mailto:lizstip3@gmail.com">lizstip3@gmail.com</a>
