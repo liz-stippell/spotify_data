@@ -15,6 +15,10 @@ if WRAP == "" or WRAP is None:
     print("WRAP value not defined. Please configure the value to continue.")
     exit()
 
+if not CONFIG or CONFIG is None:
+    print("CONFIG is missing.\nEither remove this fail safe, or ensure that config is set up correctly.")
+    exit()
+
 current_datetime = datetime.now()
 current_month = current_datetime.strftime("%B") # Automatically computes current month if you want to do it monthly
 current_month = "2024"
