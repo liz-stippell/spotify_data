@@ -13,7 +13,7 @@ I run this in the terminal because I write code from the terminal like a madman.
 1. Follow the instructions for installing Jupyter Notebook and <b>Anaconda</b> [here](https://github.com/liz-stippell/Intro_To_Python). For help with understanding how Jupyter Notebook works, find information [here](https://github.com/liz-stippell/Intro_To_Python/blob/main/1_Basic_Math.ipynb)
 2. Download the Jupyter Notebook version of the code (the file that ends in `.ipynb`). You will still need to install pandas (see above in general Python Setup)
 
-## Setting It Up
+# IFTTTT Workflow: Setting It Up
 1. You will need [this IFTTTT applet](https://ifttt.com/applets/nin7BxVm-keep-a-log-of-your-recently-played-tracks) and connect it to an account with Google Sheets
 2. Wait for your data to roll in as you listen to songs!
 3. Make sure the Google Sheet that is created is open for viewing for anyone with a link
