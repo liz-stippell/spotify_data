@@ -46,7 +46,7 @@ try:
     counts = Counter(df[artist])
     wrapped_artist = CONFIG['columnC-name']
     wrapped_song = CONFIG['columnB-name']
-except (KeyError, AttributeError):
+except (KeyError, AttributeError): # Two common errors raised when a problem occurs.
     print("Please check your google spreadsheet and ensure the headers both exist and match the config.")
     quit()
 
@@ -107,7 +107,7 @@ print("MY TOP TEN ARTISTS ON SPOTIFY OF 2024")
 try:
     for i in range(0, 10): #range(len(keys_list_artist)): # Provides your top ten artists, if you want all artists more >= 10, change range to commented
         print(values_list_artist[i], keys_list_artist[i])
-except IndexError:
+except IndexError: # Occurs when number is too high
     print("IndexError ~ list index out of range. This error will be handled gracefully.\nFalling back to listing minimum amount of artists...")
     max_range = len(keys_list_artist)
     if max_range != 0:
