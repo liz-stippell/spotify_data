@@ -4,7 +4,7 @@
 3. Make sure the Google Sheet that is created is open for viewing for anyone with a link
 4. Copy the Google Sheet link <b>from the browser</b> (i.e. not the link that Sheets gives you to share, <i>yes they are different!</i>) insert it in <b>line 6</b> of the code
 5. Add a row at the very top with the following headers: "date" "song" "artist" for columns a, b, and c
-6. Run the code! (Feel free to change it accordingly, I usually run this at the end of each month to see my monthly round-up and other cool data facts)
+6. Run the code! You can use either `IFTTTT_spotify_wrapped.py` or `IFTTTT_spotify_wrapped_NOTOEBOOK.ipynb`. The second option is recommended for beginner Python users. (Feel free to change the code accordingly, I usually run this at the end of each month to see my monthly round-up and other cool data facts)
 
 
 This repository would not be possible without IFTTTT, Google Sheets, and wherever I got the `convert_google_sheet_url()` function.
