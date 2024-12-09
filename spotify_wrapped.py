@@ -4,10 +4,10 @@ from datetime import datetime
 from collections import Counter
 
 CONFIG = {
-    'columnA-name': 'date',
-    'columnB-name' :'song',
-    'columnC-name': 'artist'
-}
+    'columnA-name': 'date', # date
+    'columnB-name' :'song', # song
+    'columnC-name': 'artist' # artist
+} # Title this to match your header. Case sensitive.
 
 WRAP = "" # Insert Google Sheet link between quotes
 
